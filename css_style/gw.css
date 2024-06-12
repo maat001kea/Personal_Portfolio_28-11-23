@@ -1,0 +1,45 @@
+.GWH1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h2 {
+  text-align: center;
+  line-height: 1.5;
+}
+.styletile {
+  padding: 40px;
+}
+
+.grid_2_2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin: 60px;
+}
+
+.grid_2_3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 60px;
+}
+@media screen and (max-width: 580px) {
+  .grid_2_3 {
+    display: grid;
+    padding-bottom: 35px;
+    grid-template-columns: 1fr;
+  }
+  .grid_2_2 {
+    display: grid;
+    padding-bottom: 35px;
+    grid-template-columns: 1fr;
+  }
+  .styletile {
+    padding: 10px;
+  }
+}
